@@ -54,7 +54,7 @@
     background: #363f88;
   }
 
-  .ListaTarefas{
+  .listaTarefas{
     display: flex;
     justify-content: center;
     flex-flow: column wrap;
@@ -81,11 +81,60 @@
     padding: 10px 15px;
   }
 
+  .item.completo{
+    display: flex;
+    justify-content: space-between;
+    background: #1e1f2e;
+    border: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+
+  .item.completo span{
+    width: 100%;
+    color: #4d506e;
+    margin-right: 10px;
+    padding: 10px 15px;
+    text-decoration: line-through;
+  }
+
+  button.del{
+    border: none;
+    background: none;
+    color: #4d506e;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  button.del:hover{
+    background: #ff004c;
+    border: none;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+  }
+
+  button.deleteAll{
+    border: 1px solid #ff004c;
+    background: none;
+    padding: 15px;
+    color: #ff004c;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button.deleteAll:hover{
+    background: #ff004c;
+    color:white;
+  }
+
 @media screen and (max-width: 900px){
   form{
     width: 100%;
   }
-  .ListaTarefas{
+  .listaTarefas{
     width: 100%;
   }
 }
