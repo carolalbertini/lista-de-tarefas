@@ -1,6 +1,4 @@
-# lista-de-tarefas
-
-Projeto Prático Lista de Tarefas
+# Projeto Prático Lista de Tarefas
 
 Aprendizado junto ao canal no youtube "Programação web" https://www.youtube.com/@programacaoweb
 
